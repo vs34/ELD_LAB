@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Aug 15 13:51:00 2023
+# Process ID: 5829
+# Current directory: /home/vs/funtion/verilog/ELD_LAB
+# Command line: vivado
+# Log file: /home/vs/funtion/verilog/ELD_LAB/vivado.log
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/vivado.jou
+# Running On: buntu, OS: Linux, CPU Frequency: 1215.288 MHz, CPU Physical cores: 4, Host memory: 8145 MB
+#-----------------------------------------------------------
+start_gui
+create_project cpu /home/vs/funtion/verilog/tp/cpu -part xc7k70tfbg676-2
+instantiate_example_design -template xilinx.com:design:cpu_netlist:1.0
+set_property top top [get_filesets sources_1]
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation -mode post-synthesis -type functional
