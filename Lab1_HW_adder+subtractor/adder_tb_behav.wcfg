@@ -11,13 +11,13 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="956.421 ns"></ZoomStartTime>
-      <ZoomEndTime time="1,008.716 ns"></ZoomEndTime>
-      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+      <ZoomStartTime time="1.630 ns"></ZoomStartTime>
+      <ZoomEndTime time="70.947 ns"></ZoomEndTime>
+      <Cursor1Time time="47.766 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="276"></NameColumnWidth>
-      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="7" />
    <wvobject type="array" fp_name="/adder_tb/InA">
@@ -31,8 +31,8 @@
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/adder_tb/OutSum">
-      <obj_property name="ElementShortName">OutSum[3:0]</obj_property>
-      <obj_property name="ObjectShortName">OutSum[3:0]</obj_property>
+      <obj_property name="ElementShortName">OutSum[4:0]</obj_property>
+      <obj_property name="ObjectShortName">OutSum[4:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/adder_tb/M">

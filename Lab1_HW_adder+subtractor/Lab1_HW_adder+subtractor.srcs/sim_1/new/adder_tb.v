@@ -1,10 +1,7 @@
 `timescale 1ns / 1ps
-
-
-
 module adder_tb();
     reg [3:0] InA, InB;
-    wire [3:0] OutSum;
+    wire [4:0] OutSum;
     wire neg;
     reg M;
     wire of;

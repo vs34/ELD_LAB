@@ -2,7 +2,7 @@ module top_adder (
     input [3:0] inA,
     input [3:0] inB,
     input M, // 0 to add, 1 to subtract
-    output [3:0] outsum,
+    output [4:0] outsum,
     output neg,
     output of,
     output zerosum
@@ -43,10 +43,10 @@ module top_adder (
         .FA1_inB(inB[3]),
         .FA1_inC(carry3),
         .FA1_outsum(outsum[3]),
-        .FA1_outc(carry4)
+        .FA1_outc(outsum[4])
     );
 
-    assign of = carry4 ^ carry3;
+    assign of = outsum[3] ^ carry3;
     assign neg = outsum[3];
     assign zerosum = (outsum == 4'b0000);
 endmodule
