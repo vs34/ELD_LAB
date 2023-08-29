@@ -1,4 +1,7 @@
 `timescale 1ns / 1ps
+
+
+
 module adder_tb();
     reg [3:0] InA, InB;
     wire [3:0] OutSum;
@@ -29,5 +32,6 @@ module adder_tb();
         #5 InA = 4'b0010; InB = 4'b0011;  M = 1'b1;
         #5 InA = 4'b0010; InB = 4'b0000;  M = 1'b1;
         #5 InA = 4'b0101; InB = 4'b0001;  M = 1'b1;
+        #5 InA = 4'b1100; InB = 4'b0010;  M = 1'b1;
     end
 endmodule

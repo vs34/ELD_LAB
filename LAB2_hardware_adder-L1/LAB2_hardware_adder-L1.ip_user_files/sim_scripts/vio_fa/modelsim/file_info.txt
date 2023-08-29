@@ -1,0 +1,2 @@
+vio_fa.v,verilog,xil_defaultlib,../../../../LAB2_hardware_adder-L1.gen/sources_1/ip/vio_fa/sim/vio_fa.v,incdir="../../../../LAB2_hardware_adder-L1.gen/sources_1/ip/vio_fa/hdl/verilog"incdir="../../../../LAB2_hardware_adder-L1.gen/sources_1/ip/vio_fa/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v
