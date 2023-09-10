@@ -48,5 +48,5 @@ module top_adder (
 
     assign of = outsum[3] ^ carry3;
     assign neg = outsum[3];
-    assign zerosum = (outsum == 4'b0000);
+    assign zerosum = (outsum == 5'b00000 | outsum == 5'b10000);
 endmodule

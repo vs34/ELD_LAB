@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Sep  6 16:25:59 2023
+# Process ID: 106408
+# Current directory: /home/vs/funtion/verilog/ELD_LAB/HW_2-hardwere_add-subtract/HW_2-hardwere_add-subtract.runs/impl_1
+# Command line: vivado -log top_adder_hware.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_adder_hware.tcl -notrace
+# Log file: /home/vs/funtion/verilog/ELD_LAB/HW_2-hardwere_add-subtract/HW_2-hardwere_add-subtract.runs/impl_1/top_adder_hware.vdi
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/HW_2-hardwere_add-subtract/HW_2-hardwere_add-subtract.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source top_adder_hware.tcl -notrace
