@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/vs/funtion/verilog/ELD_LAB/HW4_1111_sequ_detec/HW4_1111_sequ_detec.srcs/sources_1/new/detec_1111.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module detec_1111
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/vs/funtion/verilog/ELD_LAB/HW4_1111_sequ_detec/HW4_1111_sequ_detec.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench

@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module top_counter(
+ module top_counter(
     input clk_100MHz,
     input reset,
     output [7:0] count

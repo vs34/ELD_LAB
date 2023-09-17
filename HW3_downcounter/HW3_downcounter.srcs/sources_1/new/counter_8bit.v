@@ -11,14 +11,14 @@ module counter_8bit(
     always@(posedge clk_1hz or posedge reset)
     begin
         if(reset)
-            count_reg <= 0;
+            count_reg <= 8'b11111111;
         else
             count_reg <= count_next;
     end
     
     always@(*)
     begin
-        count_reg = count_next - 1;
+        count_next = count_reg - 1;
     end
     
     assign count = count_reg;

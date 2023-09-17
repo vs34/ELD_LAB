@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-| Date         : Sat Sep  9 20:00:15 2023
+| Date         : Tue Sep 12 11:31:02 2023
 | Host         : buntu running 64-bit Ubuntu 22.04.3 LTS
 | Command      : report_timing_summary -max_paths 10 -file Vio_wrapper_timing_summary_routed.rpt -pb Vio_wrapper_timing_summary_routed.pb -rpx Vio_wrapper_timing_summary_routed.rpx -warn_on_violation
 | Design       : Vio_wrapper

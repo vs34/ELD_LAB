@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Sep 12 10:08:56 2023
+# Process ID: 1399099
+# Current directory: /home/vs/funtion/verilog/ELD_LAB/ELD_LAB4-Sequence_Detector_1101/ELD_LAB4-Sequence_Detector_1101.runs/impl_1
+# Command line: vivado -log fsm.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fsm.tcl -notrace
+# Log file: /home/vs/funtion/verilog/ELD_LAB/ELD_LAB4-Sequence_Detector_1101/ELD_LAB4-Sequence_Detector_1101.runs/impl_1/fsm.vdi
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/ELD_LAB4-Sequence_Detector_1101/ELD_LAB4-Sequence_Detector_1101.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source fsm.tcl -notrace

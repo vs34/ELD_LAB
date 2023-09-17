@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/vs/funtion/LAB3_counter_8bit/LAB3_counter_8bit.runs/clk_div_cmt_synth_1'
+HD_PWD='/home/vs/funtion/verilog/ELD_LAB/HW3_downcounter/HW3_downcounter.runs/clk_div_cmt_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

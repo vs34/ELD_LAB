@@ -2,11 +2,11 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Tue Sep  5 09:38:35 2023
-# Process ID: 450589
-# Current directory: /home/vs/funtion/LAB3_counter_8bit/LAB3_counter_8bit.runs/clk_div_cmt_synth_1
+# Start of session at: Tue Sep 12 10:53:56 2023
+# Process ID: 1443054
+# Current directory: /home/vs/funtion/verilog/ELD_LAB/HW3_downcounter/HW3_downcounter.runs/clk_div_cmt_synth_1
 # Command line: vivado -log clk_div_cmt.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_div_cmt.tcl
-# Log file: /home/vs/funtion/LAB3_counter_8bit/LAB3_counter_8bit.runs/clk_div_cmt_synth_1/clk_div_cmt.vds
-# Journal file: /home/vs/funtion/LAB3_counter_8bit/LAB3_counter_8bit.runs/clk_div_cmt_synth_1/vivado.jou
+# Log file: /home/vs/funtion/verilog/ELD_LAB/HW3_downcounter/HW3_downcounter.runs/clk_div_cmt_synth_1/clk_div_cmt.vds
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/HW3_downcounter/HW3_downcounter.runs/clk_div_cmt_synth_1/vivado.jou
 #-----------------------------------------------------------
 source clk_div_cmt.tcl -notrace
