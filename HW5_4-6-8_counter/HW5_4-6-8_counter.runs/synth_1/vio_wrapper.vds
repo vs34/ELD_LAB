@@ -1,0 +1,309 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Oct  7 16:11:14 2023
+# Process ID: 1236330
+# Current directory: /home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.runs/synth_1
+# Command line: vivado -log vio_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vio_wrapper.tcl
+# Log file: /home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.runs/synth_1/vio_wrapper.vds
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source vio_wrapper.tcl -notrace
+Command: synth_design -top vio_wrapper -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1236934 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1878.254 ; gain = 152.719 ; free physical = 347 ; free virtual = 4083
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'vio_wrapper' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/vio_wrapper.v:3]
+INFO: [Synth 8-6157] synthesizing module 'vio_0' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.runs/synth_1/.Xil/Vivado-1236330-buntu/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_0' (1#1) [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.runs/synth_1/.Xil/Vivado-1236330-buntu/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'top_counter' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/top_counter.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.runs/synth_1/.Xil/Vivado-1236330-buntu/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (2#1) [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.runs/synth_1/.Xil/Vivado-1236330-buntu/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_div_rtl' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/clk_div_rtl.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div_rtl' (3#1) [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/clk_div_rtl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'counter' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (4#1) [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top_counter' (5#1) [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/top_counter.v:3]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'v1'. This will prevent further optimization [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/vio_wrapper.v:8]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'final'. This will prevent further optimization [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/vio_wrapper.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'vio_wrapper' (6#1) [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/vio_wrapper.v:3]
+WARNING: [Synth 8-3331] design counter has unconnected port reset
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1934.004 ; gain = 208.469 ; free physical = 286 ; free virtual = 4078
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1937.973 ; gain = 212.438 ; free physical = 198 ; free virtual = 4047
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1937.973 ; gain = 212.438 ; free physical = 198 ; free virtual = 4047
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'final/cmt'
+Finished Parsing XDC File [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'final/cmt'
+Parsing XDC File [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'v1'
+Finished Parsing XDC File [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'v1'
+Parsing XDC File [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/constrs_1/new/vio.xdc]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 33]]'. [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/constrs_1/new/vio.xdc:362]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/constrs_1/new/vio.xdc:367]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/constrs_1/new/vio.xdc:372]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/constrs_1/new/vio.xdc:375]
+Finished Parsing XDC File [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/constrs_1/new/vio.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/constrs_1/new/vio.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vio_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/vio_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2087.629 ; gain = 0.000 ; free physical = 162 ; free virtual = 3847
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2087.629 ; gain = 0.000 ; free physical = 161 ; free virtual = 3848
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 248 ; free virtual = 3913
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 248 ; free virtual = 3913
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk100mhz. (constraint file  /home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk100mhz. (constraint file  /home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for final/cmt. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for v1. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 268 ; free virtual = 3933
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 280 ; free virtual = 3950
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module counter 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design top_counter has unconnected port reset
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin curr_s_reg[3] with 1st driver pin 'final/Cn/curr_s_reg[3]/Q' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:10]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin curr_s_reg[3] with 2nd driver pin 'GND' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:10]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net curr_s_reg[3] is connected to at least one constant driver which has been preserved, other driver is ignored [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:10]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin curr_s_reg[2] with 1st driver pin 'final/Cn/curr_s_reg[2]/Q' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:10]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin curr_s_reg[2] with 2nd driver pin 'VCC' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:10]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net curr_s_reg[2] is connected to at least one constant driver which has been preserved, other driver is ignored [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:10]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin curr_s_reg[1] with 1st driver pin 'final/Cn/curr_s_reg[1]/Q' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:10]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin curr_s_reg[1] with 2nd driver pin 'GND' [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:10]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net curr_s_reg[1] is connected to at least one constant driver which has been preserved, other driver is ignored [/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.srcs/sources_1/new/counter.v:10]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 268 ; free virtual = 3950
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'final/cmt/clk8mhz' to pin 'final/cmt/bbstub_clk8mhz/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 135 ; free virtual = 3829
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 135 ; free virtual = 3829
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 129 ; free virtual = 3822
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 139 ; free virtual = 3831
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 139 ; free virtual = 3831
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 139 ; free virtual = 3831
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 139 ; free virtual = 3831
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 139 ; free virtual = 3831
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 139 ; free virtual = 3831
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |vio_0         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz_0 |     1|
+|2     |vio_0     |     1|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |     2|
+|2     |  final  |top_counter |     1|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 139 ; free virtual = 3831
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 9 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 2087.629 ; gain = 212.438 ; free physical = 213 ; free virtual = 3907
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2087.629 ; gain = 362.094 ; free physical = 213 ; free virtual = 3908
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2087.629 ; gain = 0.000 ; free physical = 146 ; free virtual = 3847
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 6 Warnings, 9 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 2087.629 ; gain = 590.594 ; free physical = 240 ; free virtual = 3944
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2087.629 ; gain = 0.000 ; free physical = 240 ; free virtual = 3945
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/vs/funtion/verilog/ELD_LAB/HW5_4-6-8_counter/HW5_4-6-8_counter.runs/synth_1/vio_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file vio_wrapper_utilization_synth.rpt -pb vio_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Oct  7 16:12:01 2023...

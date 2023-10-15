@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Oct  7 16:52:16 2023
+# Process ID: 1280877
+# Current directory: /home/vs/funtion/verilog/ELD_LAB/HW5.1_4-6-8-counter/HW5.1_4-6-8-counter.runs/vio_synth_1
+# Command line: vivado -log vio.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vio.tcl
+# Log file: /home/vs/funtion/verilog/ELD_LAB/HW5.1_4-6-8-counter/HW5.1_4-6-8-counter.runs/vio_synth_1/vio.vds
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/HW5.1_4-6-8-counter/HW5.1_4-6-8-counter.runs/vio_synth_1/vivado.jou
+#-----------------------------------------------------------
+source vio.tcl -notrace

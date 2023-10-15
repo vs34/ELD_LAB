@@ -1,0 +1,13 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/vs/funtion/verilog/ELD_LAB/clock/clock.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/ip/clk_wiz/clk_wiz.v,1695097014,verilog,,/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/ip/vio/sim/vio.v,,clk_wiz,,,../../../../clock.srcs/sources_1/ip/clk_wiz;../../../../clock.srcs/sources_1/ip/vio/hdl,,,,,
+/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/ip/clk_wiz/clk_wiz_clk_wiz.v,1695097013,verilog,,/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/ip/clk_wiz/clk_wiz.v,,clk_wiz_clk_wiz,,,../../../../clock.srcs/sources_1/ip/clk_wiz;../../../../clock.srcs/sources_1/ip/vio/hdl,,,,,
+/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/ip/vio/sim/vio.v,1695097212,verilog,,/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/new/clk_div_rtl.v,,vio,,,../../../../clock.srcs/sources_1/ip/clk_wiz;../../../../clock.srcs/sources_1/ip/vio/hdl,,,,,
+/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/new/clk_div_rtl.v,1695117819,verilog,,/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/new/min.v,,clk_div_rtl,,,../../../../clock.srcs/sources_1/ip/clk_wiz;../../../../clock.srcs/sources_1/ip/vio/hdl,,,,,
+/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/new/min.v,1695096155,verilog,,/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/new/sec.v,,min,,,../../../../clock.srcs/sources_1/ip/clk_wiz;../../../../clock.srcs/sources_1/ip/vio/hdl,,,,,
+/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/new/sec.v,1695097672,verilog,,/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/new/top_clock.v,,sec,,,../../../../clock.srcs/sources_1/ip/clk_wiz;../../../../clock.srcs/sources_1/ip/vio/hdl,,,,,
+/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/new/top_clock.v,1695098639,verilog,,/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/new/voi_wrapper.v,,top_clock,,,../../../../clock.srcs/sources_1/ip/clk_wiz;../../../../clock.srcs/sources_1/ip/vio/hdl,,,,,
+/home/vs/funtion/verilog/ELD_LAB/clock/clock.srcs/sources_1/new/voi_wrapper.v,1695099374,verilog,,,,voi_wrapper,,,../../../../clock.srcs/sources_1/ip/clk_wiz;../../../../clock.srcs/sources_1/ip/vio/hdl,,,,,

@@ -12,7 +12,7 @@ module test_bench;
     always #5 clk=~clk;
     initial
     begin
-             in = 1;
+            in = 1;
             #5; // wait for period 
             in = 1;
             #5; // wait for period 

@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../clock.srcs/sources_1/ip/clk_wiz" --include "../../../../clock.srcs/sources_1/ip/vio/hdl" \
+"../../../../clock.srcs/sources_1/ip/clk_wiz/clk_wiz_clk_wiz.v" \
+"../../../../clock.srcs/sources_1/ip/clk_wiz/clk_wiz.v" \
+"../../../../clock.srcs/sources_1/ip/vio/sim/vio.v" \
+"../../../../clock.srcs/sources_1/new/clk_div_rtl.v" \
+"../../../../clock.srcs/sources_1/new/min.v" \
+"../../../../clock.srcs/sources_1/new/sec.v" \
+"../../../../clock.srcs/sources_1/new/top_clock.v" \
+"../../../../clock.srcs/sources_1/new/voi_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
