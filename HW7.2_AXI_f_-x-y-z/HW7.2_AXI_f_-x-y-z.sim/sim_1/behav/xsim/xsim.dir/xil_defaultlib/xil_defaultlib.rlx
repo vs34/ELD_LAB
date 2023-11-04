@@ -1,0 +1,12 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.srcs/sim_1/new/TestBench.v,1699016153,verilog,,,,Top_arith_tb,,,,,,,,
+/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.srcs/sources_1/ip/add/sim/add.vhd,1698471518,vhdl,,,,add,,,,,,,,
+/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.srcs/sources_1/ip/by/sim/by.vhd,1698471550,vhdl,,,,by,,,,,,,,
+/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.srcs/sources_1/ip/log/sim/log.vhd,1698471657,vhdl,,,,log,,,,,,,,
+/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.srcs/sources_1/ip/mul/sim/mul.vhd,1698471591,vhdl,,,,mul,,,,,,,,
+/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.srcs/sources_1/ip/root/sim/root.vhd,1698471626,vhdl,,,,root,,,,,,,,
+/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.srcs/sources_1/new/main.v,1699015782,verilog,,/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.srcs/sim_1/new/TestBench.v,,Top_arith,,,,,,,,

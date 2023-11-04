@@ -3,9 +3,9 @@
 May 24 2019
 14:51:52
 /home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
-/home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sim_1/new/testbench.v,1697303517,verilog,,,,testbench,,,,,,,,
+/home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sim_1/new/testbench.v,1697625975,verilog,,,,testbench,,,,,,,,
 /home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sources_1/ip/fp_add/sim/fp_add.vhd,1697294824,vhdl,,,,fp_add,,,,,,,,
 /home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sources_1/ip/fp_log/sim/fp_log.vhd,1697295077,vhdl,,,,fp_log,,,,,,,,
 /home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sources_1/ip/fp_reci/sim/fp_reci.vhd,1697295017,vhdl,,,,fp_reci,,,,,,,,
 /home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sources_1/ip/fp_root/sim/fp_root.vhd,1697294867,vhdl,,,,fp_root,,,,,,,,
-/home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sources_1/new/topper.v,1697306014,verilog,,/home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sim_1/new/testbench.v,,topper,,,,,,,,
+/home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sources_1/new/topper.v,1697626444,verilog,,/home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sim_1/new/testbench.v,,topper,,,,,,,,

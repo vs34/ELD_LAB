@@ -3,6 +3,7 @@
 module testbench();
     reg clk, s_valid, m_ready;
     reg [31:0] s_data;
+    reg [31:0] y_data;
     wire m_valid, s_ready;
     wire [31:0] m_data;
     
@@ -12,7 +13,8 @@ module testbench();
         .m_data(m_data),
         .s_ready(s_ready),
         .s_valid(s_valid),
-        .m_valid(m_valid)
+        .m_valid(m_valid),
+        .y_data(y_data)
     );
 
     initial begin
@@ -24,6 +26,7 @@ module testbench();
     always #5 clk = ~clk;
     initial begin
         s_data = 32'b01000000101000000000000000000000;
+        y_data = 32'b01000000101000000000000000000000;
         s_valid = 1;
         while(s_ready == 0)
             s_valid = 1;

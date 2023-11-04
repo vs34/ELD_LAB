@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-// the equation is root(x) + (1/(ln(x)) + 1.5
+// the equation is root(x) + (1/(ln(y)) + 1.5
 
 //The source generates the VALID signal to indicate when the address, data or control information is available.
 //The destination generates the READY signal to indicate that it can accept the information.
@@ -8,6 +8,7 @@ module topper(
         input clk,
         input [31:0] s_data,
         output [31:0] m_data,
+        input [31:0] y_data,
         output s_ready,
         input s_valid,
         output m_ready,
@@ -28,20 +29,20 @@ module topper(
         .m_axis_result_tdata (root_x)
     );
     
-    // 1/ln(x)
-        //ln(x)
+    // 1/ln(y)
+        //ln(y)
         wire ln_valid,ln_ready;
         wire [31:0] ln_x;
         fp_log log_of_x (
             .aclk(clk),
             .s_axis_a_tvalid (s_valid),
             .s_axis_a_tready (s_ready),
-            .s_axis_a_tdata (s_data),
+            .s_axis_a_tdata (y_data),
             .m_axis_result_tvalid (ln_valid),
             .m_axis_result_tready (ln_ready),
             .m_axis_result_tdata (ln_x)
         );
-   // 1/ln_x
+   // 1/ln_y
    wire by_ln_valid,by_ln_ready;
    wire [31:0] by_ln_x;
    fp_reci by_lnx (
@@ -73,7 +74,7 @@ module topper(
         .aclk(clk),
         .s_axis_a_tvalid (s1_valid),
         .s_axis_a_tready (s1_ready),
-        .s_axis_a_tdata (32'b01000000101000000000000000000000),
+        .s_axis_a_tdata (32'b00111111110000000000000000000000),
         .s_axis_b_tvalid (s1_valid),  // Corrected this line
         .s_axis_b_tready (s1_ready),  // Corrected this line
         .s_axis_b_tdata (s1),    // Corrected this line

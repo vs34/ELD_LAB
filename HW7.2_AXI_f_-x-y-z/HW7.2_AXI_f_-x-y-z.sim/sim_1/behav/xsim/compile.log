@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.srcs/sources_1/new/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_arith
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/vs/funtion/verilog/ELD_LAB/HW7.2_AXI_f_-x-y-z/HW7.2_AXI_f_-x-y-z.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_arith_tb

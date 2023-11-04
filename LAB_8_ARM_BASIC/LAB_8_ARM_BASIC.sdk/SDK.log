@@ -1,0 +1,107 @@
+09:40:21 INFO  : Registering command handlers for SDK TCF services
+09:40:23 INFO  : Launching XSCT server: xsct -n -interactive /home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/temp_xsdb_launch_script.tcl
+09:40:28 INFO  : XSCT server has started successfully.
+09:40:28 INFO  : Successfully done setting XSCT server connection channel  
+09:40:28 INFO  : Successfully done setting SDK workspace  
+09:40:28 INFO  : Processing command line option -hwspec /home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/design_test_wrapper.hdf.
+10:06:56 ERROR : (XSDB Server)invalid command name "jtabterminal"
+
+10:07:04 ERROR : (XSDB Server)Invalid target. Use "connect" command to connect to hw_server/TCF agent
+
+10:07:13 ERROR : (XSDB Server)invalid command name "run"
+
+10:07:15 ERROR : (XSDB Server)wrong # args: should be "llength list"
+
+10:10:54 INFO  : Connected to target on host '192.168.226.142' and port '56835'.
+10:10:54 INFO  : Jtag cable 'Digilent Zed 210248685247' is selected.
+10:10:54 INFO  : 'jtag frequency' command is executed.
+10:10:54 INFO  : Sourcing of '/home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/design_test_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:10:58 INFO  : Context for 'APU' is selected.
+10:10:58 INFO  : System reset is completed.
+10:11:01 INFO  : 'after 3000' command is executed.
+10:11:01 ERROR : (XSDB Server)Target doesn't support Jtag Uart
+
+10:11:01 INFO  : Context for 'APU' is selected.
+10:11:01 INFO  : Hardware design information is loaded from '/home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/design_test_wrapper_hw_platform_0/system.hdf'.
+10:11:01 INFO  : 'configparams force-mem-access 1' command is executed.
+10:11:01 INFO  : Context for 'APU' is selected.
+10:11:04 INFO  : 'ps7_init' command is executed.
+10:11:04 INFO  : 'ps7_post_config' command is executed.
+10:11:04 INFO  : 'configparams force-mem-access 0' command is executed.
+10:11:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:192.168.226.142:56835
+source /home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/design_test_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685247"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685247"} -index 0
+loadhw -hw /home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/design_test_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685247"} -index 0
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:11:04 INFO  : Launch script is exported to file '/home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_on_local.tcl'
+10:11:10 ERROR : (XSDB Server)Target doesn't support Jtag Uart
+
+10:11:12 ERROR : (XSDB Server)Target doesn't support Jtag Uart
+
+10:11:22 ERROR : (XSDB Server)Target doesn't support Jtag Uart
+
+10:11:58 ERROR : (XSDB Server)invalid command name "Jtagterminal"
+
+10:12:02 ERROR : (XSDB Server)Target doesn't support Jtag Uart
+
+10:14:25 INFO  : Disconnected from the channel tcfchan#1.
+10:14:26 INFO  : Connected to target on host '192.168.226.142' and port '56835'.
+10:14:27 INFO  : Jtag cable 'Digilent Zed 210248685247' is selected.
+10:14:27 INFO  : 'jtag frequency' command is executed.
+10:14:27 INFO  : Sourcing of '/home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/design_test_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:14:27 INFO  : Context for 'APU' is selected.
+10:14:27 INFO  : System reset is completed.
+10:14:30 INFO  : 'after 3000' command is executed.
+10:14:30 ERROR : (XSDB Server)Target doesn't support Jtag Uart
+
+10:14:30 INFO  : Context for 'APU' is selected.
+10:14:31 INFO  : Hardware design information is loaded from '/home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/design_test_wrapper_hw_platform_0/system.hdf'.
+10:14:31 INFO  : 'configparams force-mem-access 1' command is executed.
+10:14:31 INFO  : Context for 'APU' is selected.
+10:14:34 INFO  : 'ps7_init' command is executed.
+10:14:34 INFO  : 'ps7_post_config' command is executed.
+10:14:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:14:34 INFO  : The application '/home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/Lab8_hello_world/Debug/Lab8_hello_world.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:14:34 INFO  : 'configparams force-mem-access 0' command is executed.
+10:14:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:192.168.226.142:56835
+source /home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/design_test_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685247"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685247"} -index 0
+loadhw -hw /home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/design_test_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248685247"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248685247"} -index 0
+dow /home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/Lab8_hello_world/Debug/Lab8_hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:14:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:14:34 INFO  : 'con' command is executed.
+10:14:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248685247"} -index 0
+con
+----------------End of Script----------------
+
+10:14:34 INFO  : Launch script is exported to file '/home/vs/funtion/verilog/ELD_LAB/LAB_8_ARM_BASIC/LAB_8_ARM_BASIC.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_on_local.tcl'
+10:14:42 ERROR : (XSDB Server)couldn't execute "xterm": no such file or directory
+
+10:15:09 ERROR : (XSDB Server)couldn't execute "xterm": no such file or directory
+
+10:15:23 WARN  : channel "tcfchan#2" closed
+10:16:40 ERROR : (XSDB Server)Invalid target. Use "connect" command to connect to hw_server/TCF agent
+

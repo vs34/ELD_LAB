@@ -1,0 +1,3 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+$stop called at time : 1150 ns : File "/home/vs/funtion/verilog/ELD_LAB/LAB7_AXI_FFT/LAB7_AXI_FFT.srcs/sim_1/new/FFT_TB.v" Line 107

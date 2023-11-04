@@ -1,0 +1,1 @@
+fft.vhd,vhdl,xil_defaultlib,../../../../LAB7_AXI_FFT.srcs/sources_1/ip/fft/sim/fft.vhd,

@@ -1,3 +1,0 @@
-Vivado Simulator 2019.1
-Time resolution is 1 ps
-$stop called at time : 775 ns : File "/home/vs/funtion/verilog/ELD_LAB/HW6_AXI_equation/HW6_AXI_equation.srcs/sim_1/new/testbench.v" Line 32

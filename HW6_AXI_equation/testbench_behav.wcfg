@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="774994633fs"></ZoomStartTime>
+      <ZoomEndTime time="775001074fs"></ZoomEndTime>
+      <Cursor1Time time="775000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="157"></NameColumnWidth>
+      <ValueColumnWidth column_width="198"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/testbench/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/s_valid">
+      <obj_property name="ElementShortName">s_valid</obj_property>
+      <obj_property name="ObjectShortName">s_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/m_ready">
+      <obj_property name="ElementShortName">m_ready</obj_property>
+      <obj_property name="ObjectShortName">m_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/s_data">
+      <obj_property name="ElementShortName">s_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/y_data">
+      <obj_property name="ElementShortName">y_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_data[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/m_valid">
+      <obj_property name="ElementShortName">m_valid</obj_property>
+      <obj_property name="ObjectShortName">m_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/s_ready">
+      <obj_property name="ElementShortName">s_ready</obj_property>
+      <obj_property name="ObjectShortName">s_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/m_data">
+      <obj_property name="ElementShortName">m_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_data[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+</wave_config>

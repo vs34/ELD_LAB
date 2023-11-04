@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FFT_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FFT_TB" />
+            <top_module name="glbl" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="301150000001fs"></ZoomEndTime>
+      <Cursor1Time time="999997000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="157"></NameColumnWidth>
+      <ValueColumnWidth column_width="198"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject type="logic" fp_name="/FFT_TB/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/c_valid">
+      <obj_property name="ElementShortName">c_valid</obj_property>
+      <obj_property name="ObjectShortName">c_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/ffti_valid">
+      <obj_property name="ElementShortName">ffti_valid</obj_property>
+      <obj_property name="ObjectShortName">ffti_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/ffti_last">
+      <obj_property name="ElementShortName">ffti_last</obj_property>
+      <obj_property name="ObjectShortName">ffti_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/ffto_ready">
+      <obj_property name="ElementShortName">ffto_ready</obj_property>
+      <obj_property name="ObjectShortName">ffto_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/FFT_TB/ffti_data">
+      <obj_property name="ElementShortName">ffti_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ffti_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/FFT_TB/c_data">
+      <obj_property name="ElementShortName">c_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">c_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/c_ready">
+      <obj_property name="ElementShortName">c_ready</obj_property>
+      <obj_property name="ObjectShortName">c_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/ffti_ready">
+      <obj_property name="ElementShortName">ffti_ready</obj_property>
+      <obj_property name="ObjectShortName">ffti_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/ffto_valid">
+      <obj_property name="ElementShortName">ffto_valid</obj_property>
+      <obj_property name="ObjectShortName">ffto_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/ffto_last">
+      <obj_property name="ElementShortName">ffto_last</obj_property>
+      <obj_property name="ObjectShortName">ffto_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/FFT_TB/ffto_data">
+      <obj_property name="ElementShortName">ffto_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ffto_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/a">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/b">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/c">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/d">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/e">
+      <obj_property name="ElementShortName">e</obj_property>
+      <obj_property name="ObjectShortName">e</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/FFT_TB/f">
+      <obj_property name="ElementShortName">f</obj_property>
+      <obj_property name="ObjectShortName">f</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/FFT_TB/input_data_r">
+      <obj_property name="ElementShortName">input_data_r[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_data_r[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/FFT_TB/input_data_im">
+      <obj_property name="ElementShortName">input_data_im[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_data_im[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/FFT_TB/output_data_r">
+      <obj_property name="ElementShortName">output_data_r[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data_r[7:0][31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/FFT_TB/output_data_im">
+      <obj_property name="ElementShortName">output_data_im[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data_im[7:0][31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/FFT_TB/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/FFT_TB/j">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+</wave_config>

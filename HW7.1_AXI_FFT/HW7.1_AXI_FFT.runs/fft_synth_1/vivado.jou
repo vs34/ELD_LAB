@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 19 22:42:40 2023
+# Process ID: 29411
+# Current directory: /home/vs/funtion/verilog/ELD_LAB/HW7.1_AXI_FFT/HW7.1_AXI_FFT.runs/fft_synth_1
+# Command line: vivado -log fft.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fft.tcl
+# Log file: /home/vs/funtion/verilog/ELD_LAB/HW7.1_AXI_FFT/HW7.1_AXI_FFT.runs/fft_synth_1/fft.vds
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/HW7.1_AXI_FFT/HW7.1_AXI_FFT.runs/fft_synth_1/vivado.jou
+#-----------------------------------------------------------
+source fft.tcl -notrace
