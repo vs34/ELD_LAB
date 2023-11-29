@@ -1,0 +1,187 @@
+
+**** Build of configuration Debug for project 2x2matrix_mul ****
+
+Nothing to build for project 2x2matrix_mul
+21:39:32 **** Auto Build of configuration Debug for project 2x2matrix_mul ****
+make all 
+Building file: ../src/matrix_mul.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matrix_mul.o" -MMD -MP -MF"src/matrix_mul.d" -MT"src/matrix_mul.o" -o "src/matrix_mul.o" "../src/matrix_mul.c"
+Finished building: ../src/matrix_mul.c
+ 
+Building target: 2x2matrix_mul.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "2x2matrix_mul.elf" ./src/matrix_mul.o   
+/tools/Xilinx/SDK/2019.1/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/8.2.0/../../../../arm-linux-gnueabihf/bin/ld: /tools/Xilinx/SDK/2019.1/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o: in function `_start':
+static-reloc.c:(.text+0x34): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:38: 2x2matrix_mul.elf] Error 1
+21:41:10 **** Auto Build of configuration Debug for project 2x2matrix_mul ****
+make all 
+Building file: ../src/matrix_mul.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matrix_mul.o" -MMD -MP -MF"src/matrix_mul.d" -MT"src/matrix_mul.o" -o "src/matrix_mul.o" "../src/matrix_mul.c"
+Finished building: ../src/matrix_mul.c
+ 
+Building target: 2x2matrix_mul.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "2x2matrix_mul.elf" ./src/matrix_mul.o   
+Finished building target: 2x2matrix_mul.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size 2x2matrix_mul.elf  |tee "2x2matrix_mul.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1451	    288	      4	   1743	    6cf	2x2matrix_mul.elf
+Finished building: 2x2matrix_mul.elf.size
+ 
+21:44:56 **** Auto Build of configuration Debug for project 2x2matrix_mul ****
+make all 
+Building file: ../src/matrix_mul.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matrix_mul.o" -MMD -MP -MF"src/matrix_mul.d" -MT"src/matrix_mul.o" -o "src/matrix_mul.o" "../src/matrix_mul.c"
+../src/matrix_mul.c:2:10: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:20: src/matrix_mul.o] Error 1
+21:45:58 **** Auto Build of configuration Debug for project 2x2matrix_mul ****
+make all 
+Building file: ../src/matrix_mul.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matrix_mul.o" -MMD -MP -MF"src/matrix_mul.d" -MT"src/matrix_mul.o" -o "src/matrix_mul.o" "../src/matrix_mul.c"
+../src/matrix_mul.c:2:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:20: src/matrix_mul.o] Error 1
+21:49:03 **** Build of configuration Debug for project mat ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: mat.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "mat.elf" ./src/helloworld.o   
+Finished building target: mat.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size mat.elf  |tee "mat.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+    852	    280	      4	   1136	    470	mat.elf
+Finished building: mat.elf.size
+ 
+21:49:05 **** Auto Build of configuration Debug for project mat ****
+make all 
+make: Nothing to be done for 'all'.
+21:49:22 **** Auto Build of configuration Debug for project 2x2matrix_mul ****
+make all 
+Building file: ../src/matrix_mul.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matrix_mul.o" -MMD -MP -MF"src/matrix_mul.d" -MT"src/matrix_mul.o" -o "src/matrix_mul.o" "../src/matrix_mul.c"
+../src/matrix_mul.c:2:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:20: src/matrix_mul.o] Error 1
+21:49:23 **** Auto Build of configuration Debug for project mat ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:21:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("Hello World\n");
+     ^~~~~~
+../src/helloworld.c:21:5: warning: incompatible implicit declaration of built-in function ‘printf’
+../src/helloworld.c:21:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../src/helloworld.c:1:1:
++#include <stdio.h>
+ /*
+../src/helloworld.c:21:5:
+     printf("Hello World\n");
+     ^~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: mat.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "mat.elf" ./src/helloworld.o   
+Finished building target: mat.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size mat.elf  |tee "mat.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+    852	    280	      4	   1136	    470	mat.elf
+Finished building: mat.elf.size
+ 
+21:49:37 **** Auto Build of configuration Debug for project mat ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: mat.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "mat.elf" ./src/helloworld.o   
+Finished building target: mat.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size mat.elf  |tee "mat.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+    852	    280	      4	   1136	    470	mat.elf
+Finished building: mat.elf.size
+ 
+22:06:11 **** Auto Build of configuration Debug for project mat ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:29:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:20: src/helloworld.o] Error 1
+22:54:55 **** Auto Build of configuration Debug for project mat ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:29:11: fatal error: xil_printf.h: No such file or directory
+  #include "xil_printf.h"
+           ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:20: src/helloworld.o] Error 1
+10:27:06 **** Auto Build of configuration Debug for project mat ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘bitreverse’:
+../src/helloworld.c:11:1: warning: label ‘bit_reversal’ defined but not used [-Wunused-label]
+ bit_reversal:
+ ^~~~~~~~~~~~
+../src/helloworld.c: In function ‘FFT_stages’:
+../src/helloworld.c:25:1: warning: label ‘stage2’ defined but not used [-Wunused-label]
+ stage2:
+ ^~~~~~
+../src/helloworld.c:20:1: warning: label ‘stage1’ defined but not used [-Wunused-label]
+ stage1:
+ ^~~~~~
+../src/helloworld.c:19:27: warning: unused variable ‘temp2’ [-Wunused-variable]
+   float complex temp1[N], temp2[N];
+                           ^~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: mat.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "mat.elf" ./src/helloworld.o   
+Finished building target: mat.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size mat.elf  |tee "mat.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3109	    284	      4	   3397	    d45	mat.elf
+Finished building: mat.elf.size
+ 

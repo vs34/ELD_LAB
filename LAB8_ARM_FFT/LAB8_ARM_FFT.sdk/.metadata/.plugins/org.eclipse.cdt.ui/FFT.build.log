@@ -1,0 +1,36 @@
+11:13:41 **** Auto Build of configuration Debug for project FFT ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FFT_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:106:14: warning: passing argument 1 of 'bitreverse' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   bitreverse(rev8_in, FFT_input, FFT_rev);
+              ^~~~~~~
+../src/helloworld.c:16:21: note: expected 'int *' but argument is of type 'const int *'
+ void bitreverse(int rev8[N], float complex dataIn[N],
+                 ~~~~^~~~~~~
+../src/helloworld.c:106:23: warning: passing argument 2 of 'bitreverse' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   bitreverse(rev8_in, FFT_input, FFT_rev);
+                       ^~~~~~~~~
+../src/helloworld.c:16:44: note: expected '_Complex float *' but argument is of type 'const _Complex float *'
+ void bitreverse(int rev8[N], float complex dataIn[N],
+                              ~~~~~~~~~~~~~~^~~~~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: FFT.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FFT_bsp/ps7_cortexa9_0/lib -o "FFT.elf" ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: FFT.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size FFT.elf  |tee "FFT.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59344	   2584	  23328	  85256	  14d08	FFT.elf
+Finished building: FFT.elf.size
+ 
+
+11:13:42 Build Finished (took 1s.286ms)
+

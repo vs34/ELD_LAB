@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# 
+# Start of session at: Sat Nov  4 22:06:10 2023
+# Process ID: 28010
+# Current directory: /home/vs/funtion/verilog/ELD_LAB/HW8_ARM_2x2matrix_into/HW8_ARM_2x2matrix_into.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/vs/funtion/verilog/ELD_LAB/HW8_ARM_2x2matrix_into/HW8_ARM_2x2matrix_into.sdk/webtalk/webtalk.log
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/HW8_ARM_2x2matrix_into/HW8_ARM_2x2matrix_into.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

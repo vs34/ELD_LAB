@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;fft/src/dma_init.c&apos; to &apos;dma_init.h&apos;" description="Rename resource &apos;dma_init.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/dma_init.c" name="dma_init.h" stamp="1700328054198" updateReferences="true"/>
+</session>

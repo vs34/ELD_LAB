@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# 
+# Start of session at: Tue Nov 21 10:19:06 2023
+# Process ID: 182984
+# Current directory: /home/vs/funtion/verilog/ELD_LAB/CW_11_fft/CW_11_fft.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/vs/funtion/verilog/ELD_LAB/CW_11_fft/CW_11_fft.sdk/webtalk/webtalk.log
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/CW_11_fft/CW_11_fft.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

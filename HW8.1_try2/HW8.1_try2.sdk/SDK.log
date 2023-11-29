@@ -1,0 +1,6 @@
+23:26:09 INFO  : Registering command handlers for SDK TCF services
+23:26:10 INFO  : Launching XSCT server: xsct -n -interactive /home/vs/funtion/verilog/ELD_LAB/HW8.1_try2/HW8.1_try2.sdk/temp_xsdb_launch_script.tcl
+23:26:14 INFO  : XSCT server has started successfully.
+23:26:14 INFO  : Successfully done setting XSCT server connection channel  
+23:26:14 INFO  : Successfully done setting SDK workspace  
+23:26:14 INFO  : Processing command line option -hwspec /home/vs/funtion/verilog/ELD_LAB/HW8.1_try2/HW8.1_try2.sdk/test_wrapper.hdf.

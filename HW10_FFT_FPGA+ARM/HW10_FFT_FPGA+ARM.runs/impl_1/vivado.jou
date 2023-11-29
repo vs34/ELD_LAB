@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov 29 09:33:22 2023
+# Process ID: 149472
+# Current directory: /home/vs/funtion/verilog/ELD_LAB/HW10_FFT_FPGA+ARM/HW10_FFT_FPGA+ARM.runs/impl_1
+# Command line: vivado -log pro_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pro_wrapper.tcl -notrace
+# Log file: /home/vs/funtion/verilog/ELD_LAB/HW10_FFT_FPGA+ARM/HW10_FFT_FPGA+ARM.runs/impl_1/pro_wrapper.vdi
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/HW10_FFT_FPGA+ARM/HW10_FFT_FPGA+ARM.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source pro_wrapper.tcl -notrace

@@ -1,0 +1,53 @@
+#include <complex.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+#define N 4
+
+const int rev4[N] = {0, 2, 1, 3};
+const float complex W[N / 2] = {1 - 0 * I, 0 - 1 * I};
+
+void bitreverse(float complex dataIn[N], float complex dataOut[N]) {
+bit_reversal:
+  for (int i = 0; i < N; i++) {
+    dataOut[i] = dataIn[rev4[i]];
+  }
+}
+// ﻿
+
+void FFT_stages(float complex FFT_input[N], float complex FFT_output[N]) {
+  float complex temp1[N], temp2[N];
+stage1:
+  for (int i = 0; i < N; i = i + 2) {
+    temp1[i] = FFT_input[i] + FFT_input[i + 1];
+    temp1[i + 1] = FFT_input[i] - FFT_input[i + 1];
+  }
+stage2:
+  for (int i = 0; i < N / 2; i = i + 1) {
+    FFT_output[i] = temp1[i] + W[i] * temp1[i + 2];
+    FFT_output[i + 2] = temp1[i] - W[i] * temp1[i + 2];
+  }
+}
+
+int main() {
+  float complex FFT_input[N] = {11 + 23 * I, 32 + 10 * I, 91 + 94 * I,
+                                15 + 69 * I};
+
+  float complex FFT_output[N];
+
+  float complex FFT_rev[N];
+
+  bitreverse(FFT_input, FFT_rev);
+  FFT_stages(FFT_rev, FFT_output);
+  printf("\n Printinf FFT input\r\n");
+
+  for (int i = 0; i < N; i++) {
+    printf("%f %f\n", creal(FFT_input[i]), cimagf(FFT_input[i]));
+  }
+
+  printf("\n Printinf FFT output\r\n");
+  for (int i = 0; i < N; i++) {
+    printf("%f %f\n", creal(FFT_output[i]), cimagf(FFT_output[i]));
+  }
+  return 0;
+}

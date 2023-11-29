@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Sep  9 19:49:35 2023
+# Process ID: 24773
+# Current directory: /home/vs/funtion/verilog/ELD_LAB
+# Command line: vivado
+# Log file: /home/vs/funtion/verilog/ELD_LAB/vivado.log
+# Journal file: /home/vs/funtion/verilog/ELD_LAB/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/vs/funtion/verilog/ELD_LAB/HW_2-hardwere_add-subtract/HW_2-hardwere_add-subtract.xpr
+update_compile_order -fileset sources_1

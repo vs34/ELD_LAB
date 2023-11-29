@@ -1,0 +1,55 @@
+	///*
+	// * Copyright (c) 2012 Xilinx, Inc.  All rights reserved.
+	// *
+	// * Xilinx, Inc.
+	// * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+	// * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+	// * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+	// * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+	// * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+	// * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+	// * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+	// * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+	// * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+	// * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+	// * AND FITNESS FOR A PARTICULAR PURPOSE.
+	// *
+	// */
+	//
+	//#include <stdio.h>
+	//
+	//int main()
+	//{
+	//    printf("Hello World\n");
+	//
+	//    return 0;
+	//}
+
+	#include <stdio.h>
+	#include "xil_printf.h"
+
+	int main() {
+		int matrix1[2][2] = {{1, 2}, {3, 4}};
+		int matrix2[2][2] = {{5, 6}, {7, 8}};
+		int result[2][2];
+
+		// Perform matrix multiplication
+		for (int i = 0; i < 2; i++) {
+			for (int j = 0; j < 2; j++) {
+				result[i][j] = 0;
+				for (int k = 0; k < 2; k++) {
+					result[i][j] += matrix1[i][k] * matrix2[k][j];
+				}
+			}
+		}
+
+		// Print the result using Xilinx Xil_printf
+		for (int i = 0; i < 2; i++) {
+			for (int j = 0; j < 2; j++) {
+				xil_printf("%d ", result[i][j]);
+			}
+			xil_printf("\n");
+		}
+
+		return 0;
+	}
